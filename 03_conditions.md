@@ -1,4 +1,4 @@
-[Previous: The Basics](02_basics.md) - [[TOC](Readme.md)]
+[Previous: The Basics](02_basics.md) - [[TOC](README.md)]
 
 ---
 
@@ -95,4 +95,4 @@ else:
 
 ------
 
-[Next: Keyboard and Mouse](04_keyboard_mouse.md) - [[TOC](Readme.md)]
+[Next: Keyboard and Mouse](04_keyboard_mouse.md) - [[TOC](README.md)]

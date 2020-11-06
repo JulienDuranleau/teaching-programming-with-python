@@ -1,4 +1,4 @@
-[Previous: Conditions](03_conditions.md) - [[TOC](Readme.md)]
+[Previous: Conditions](03_conditions.md) - [[TOC](README.md)]
 
 ---
 
@@ -16,4 +16,4 @@ To
 
 ------
 
-[Next: Loops](05_loops.md) - [[TOC](Readme.md)]
+[Next: Loops](05_loops.md) - [[TOC](README.md)]

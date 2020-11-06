@@ -1,4 +1,4 @@
-[Table of Contents](Readme.md)
+[Table of Contents](README.md)
 
 ---
 
@@ -18,4 +18,4 @@ You might need to restart Processing first.
 
 ------
 
-[Next: The Basics](02_basics.md) - [[TOC](Readme.md)]
+[Next: The Basics](02_basics.md) - [[TOC](README.md)]

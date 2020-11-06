@@ -1,4 +1,4 @@
-[Previous: Installing Processing](01_processing_install.md) - [[TOC](Readme.md)]
+[Previous: Installing Processing](01_processing_install.md) - [[TOC](README.md)]
 
 ---
 
@@ -172,4 +172,4 @@ def draw():
 
 ------
 
-[Next: Conditions](03_conditions.md) - [[TOC](Readme.md)]
+[Next: Conditions](03_conditions.md) - [[TOC](README.md)]
