@@ -3,7 +3,7 @@
 ---
 
 
-# Conditions
+# `if` conditions
 
 Conditions allow us to control the flow of code by adding conditions to the execution of specific lines of code. 
 
@@ -61,7 +61,7 @@ def draw():
         print("Number is bigger than 100")
 ```
 
-## Else
+## `else`
 
 It is also possible to do something if the conditions fails (is `False`).
 ```python
@@ -73,7 +73,7 @@ else:
 print("The end. Always shows")
 ```
 
-## Elif
+## `elif`
 If we want to be fancy, we can even test multiple possibilities with `elif`. Only the first one which is true is actually executed. If none of the `if` or `elif` are `True`, then the `else` part is executed.
 
 ```python
