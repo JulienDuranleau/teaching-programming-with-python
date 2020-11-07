@@ -82,4 +82,4 @@ def keyReleased():
 
 ------
 
-[Next: Loops](05_loops.md) - [[TOC](README.md)]
+[Next: Lists and Dictionaries](05_lists.md) - [[TOC](README.md)]
