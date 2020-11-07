@@ -74,7 +74,7 @@ print("The end. Always shows")
 ```
 
 ## Elif
-If we want to be fancy, we can even test multiple possibilities with `elif`. Only the first one which is true is actually executed. If none of the `if` or `elif` are `True`, then the `else` part is executed just like a regular `if`.
+If we want to be fancy, we can even test multiple possibilities with `elif`. Only the first one which is true is actually executed. If none of the `if` or `elif` are `True`, then the `else` part is executed.
 
 ```python
 number = 5
@@ -88,10 +88,14 @@ else:
 ```
 
 ## Challenges
-- Draw a circle under the cursor only when the mouse is pressed (see Processing variables in [02_basics](02_basics.md)
-- Create a bouncing ball with a color the depends on it's position
-    - Create a speed variable and change it's value to a negative number when it hits a side. Use the speed to change the position each time the `draw` is executed
-- Split the screen in two colors. The left half is one color and the other half is the other color. When the mouse moves past the middle, the colors switch.
+1. Split the screen in two colors. The left half is one color and the other half is a different color. When the mouse moves past the middle, the colors switch sides. When the mouse comes back, they switch again to be back at their original positions.
+2. Draw a circle under the cursor only when the mouse is pressed (see Processing variables in [02_basics](02_basics.md)
+    - Try disabling the border to get a smoother effect
+    - (harder) Use the `line()` function with the `pmouseX` and `pmouseY` to draw a real line instead of a bunch of circles
+3. Draw a square, and change it's color only when the cursor is over it. Again, you'll need some of the Processing variables.
+4. Create a bouncing ball
+    - Create a speed_x and speed_y variable and change their value to a negative number when the ball hits a side. Use the speeds to change the positions each time the `draw` is executed
+    - Change the ball's color depending on where it is on the screen.
 
 ------
 

@@ -167,10 +167,10 @@ def draw():
 ```
 
 ## Challenges
-- Create a "painting" using the drawing functions
-- Use the `draw` area to create some shapes (with transparency?) at random position and with random colors
-- Use the `draw` area to change the color of a shape as time passes by
-- Use processing variables to change the color or position of things as they get drawn
+1. Create a "painting" using the drawing functions
+2. Use the `draw` area to create some shapes (with transparency?) at random position and with random colors
+3. Use the `draw` area to change the color of a shape as time passes by
+4. Use processing variables (e.g. `mouseX`, `mouseY`) to change the color or position of things as they get drawn
 
 ------
 

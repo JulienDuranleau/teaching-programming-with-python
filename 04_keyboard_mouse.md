@@ -72,10 +72,10 @@ def keyReleased():
 ```
 
 ## Challenges
-- Move a circle or rectangle with WASD
-- For the drawing app we made in [03_conditions](03_conditions.md), add a list of colors to pick from. Display each colors as a small rectangle on the screen, then detect when the mouse is pressed and check the position of it to know which "color" was pressed. Then draw the following lines/shapes with this color
-- Create a character (recangle, circle or image) that can jump and fall with gravity, just like the Mario game. The floor would be the bottom of the screen.
-- Recreate the [Pong game](https://en.wikipedia.org/wiki/Pong)
+1. Move a circle or rectangle with WASD keys
+2. For the drawing app we made in [03_conditions](03_conditions.md), add a list of colors to pick from. Display each colors as a small rectangle on the screen, then detect when the mouse is pressed and check the position of it to know which "color" was pressed. Then draw the following lines/shapes with this color
+3. Create a character (recangle, circle or image) that can jump and fall with gravity, just like the Mario game. The floor would be the bottom of the screen.
+4. Recreate the [Pong game](https://en.wikipedia.org/wiki/Pong)
     - Bounching ball
     - Moving paddles
     - Collisions (hard)
