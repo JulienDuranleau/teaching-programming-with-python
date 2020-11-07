@@ -15,9 +15,9 @@ def draw():
     pass
 ```
 
-Both `setup` and `draw` define code "areas" in which we'll write our code.
-- `setup` : Called once when the project launches
-- `draw` : Called 60 times per seconds (60fps)
+Both `setup` and `draw` define code "areas" in which we'll write our code. We call them *function definitions*.
+- `setup` : Executed once when the project launches
+- `draw` : Executed 60 times per seconds (60fps)
 
 ## Comments
 Anything  that follows a `#` is ignored by the computer when reading our code. Even if it is a line of code.
@@ -27,7 +27,7 @@ Anything  that follows a `#` is ignored by the computer when reading our code. E
 1 + 1 # This part after the 1+1 is ignored
 ```
 
-## Drawing commands (functions)
+## Drawing commands (*functions calls*)
 
 ```python
 command()
@@ -54,10 +54,10 @@ rect(10, 20, 100, 50)
 List of commands (functions) : https://py.processing.org/reference/
 
 **To get started:**
-- [size](https://py.processing.org/reference/size.html) - Sets the size of the drawing area. Must be in the `setup` area
+- [size](https://py.processing.org/reference/size.html) - Sets the size of the drawing area. Must be in `setup():`
 
 Colors
-- [background](https://py.processing.org/reference/background.html) - Clear the screen with a color
+- [background](https://py.processing.org/reference/background.html) - Clear the whole screen with a color
 - [fill](https://py.processing.org/reference/fill.html) - Defines the color to use inside the shapes drawn after to this line
 - [noFill](https://py.processing.org/reference/noFill.html) - Remove the color inside the shapes drawn after to this line
 - [noStroke](https://py.processing.org/reference/noStroke.html) - Remove the border around the shapes drawn after to this line
@@ -95,13 +95,15 @@ The name of the variable **cannot** contain spaces. To combine multiple words, w
 character_health = 100
 ```
 
-#### Simple value types (primitive types)
+#### Simple value types
 
 - int : Integer number (e.g. : `155`, `0`, `-159125`)
 - float: Floating point number (e.g. : `10.5125`, `3.14159`, `-159.5`)
 - boolean: `True` or `False`
 - string: Text that isn't code.  (e.g. : `"My name is Stephanie"` )
     - Must be surrounded by double quote `"`
+
+More types exists, we'll see them later.
 
 #### Operators
 `+`: Add
@@ -143,7 +145,7 @@ def draw():
     background(255)
 ```
 
-However, if we want to use and update the variable value **inside** on of the functions (e.g. `setup` or `draw`), we need to explicitely say it is a global variable:
+However, if we want to **change** the variable value **inside** of a function (e.g. `setup` or `draw`), we need to explicitely say it is a global variable:
 
 ```python
 position_x = 0
@@ -153,7 +155,7 @@ def setup():
     size(800, 600)
 
 def draw():
-    global position_x             # Tell Python to use the global variable
+    global position_x             # Tell Python we need to modify the global variable
     #^^^^^^^^^^^^^^^^^
 
     background(25)
