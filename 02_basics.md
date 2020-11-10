@@ -168,9 +168,12 @@ def draw():
 
 ## Challenges
 1. Create a "painting" using the drawing functions
-2. Use the `draw` area to create some shapes (with transparency?) at random position and with random colors
-3. Use the `draw` area to change the color of a shape as time passes by
-4. Use processing variables (e.g. `mouseX`, `mouseY`) to change the color or position of things as they get drawn
+2. Move a shape from top to bottom across the screen
+3. Draw a triangle that spread from the bottom left to the bottom right and hits the top center. Ideally, when you change the `size()`, the triangle still reaches the same corners.
+4. Create a variable `a` which stores the value of `40` plus `2`. Mutliply `a` by 3 and store the result inside of `b`. Divide `b` by 10 and store the final result inside a `result` variable. Finally, print `result` to the black console.
+5. Use the `draw` area to create some shapes (with transparency?) at random position and with random colors
+6. Use the `draw` area to change the color of a shape as time passes by
+7. Use processing variables (e.g. `mouseX`, `mouseY`) to change the color or position of things as they get drawn
 
 ------
 
